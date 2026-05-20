@@ -456,7 +456,7 @@ Agido 真正的威力在于多引擎的深度协同：
 ![agido-homepage](https://agido.exmay.com/docs/images/agido_homepage.png)
 <br />
 ![agido-homepage-dark](https://agido.exmay.com/docs/images/agido_homepage_dark.png)
-<br />
+<!-- <br />
 ![agido-dashboard](https://agido.exmay.com/docs/images/agido_dashboard.png)
 <br />
 ![agido-dashboard-dark](https://agido.exmay.com/docs/images/agido_dashboard_dark.png)
@@ -468,7 +468,7 @@ Agido 真正的威力在于多引擎的深度协同：
 ![agido-engine](https://agido.exmay.com/docs/images/agido_engine.png)
 <br />
 ![agido-engine-dark](https://agido.exmay.com/docs/images/agido_engine_dark.png)
-<br />
+<br /> -->
 
 ---
 
