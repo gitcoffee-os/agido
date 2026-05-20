@@ -1,0 +1,88 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnpm-store
+
+# testing
+/coverage
+
+#cache
+.turbo
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env.local
+.env.*.local
+
+yarn.lock
+out/
+build/
+dist/
+*.zip
+*.crx
+
+# typescript
+.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# rust / cargo
+target/
+**/*.rs.bk
+Cargo.lock
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+*.egg-info/
+*.egg
+dist-packages/
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ide
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# sqlite
+*.db
+*.sqlite
+*.sqlite3
+
+# docker
+docker-volumes/
+
+# vector store
+*.vec
+chroma_data/
+
+# os
+._*
+Thumbs.db
+
+# project
+.gitcoffee

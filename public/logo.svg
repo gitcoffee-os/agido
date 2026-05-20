@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1B5E"/>
+      <stop offset="100%" stop-color="#3B0F70"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0055"/>
+      <stop offset="50%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0055" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <g transform="translate(256,256)" filter="url(#glow)">
+    <path d="M 0 -140 L 28 -28 L 140 0 L 28 28 L 0 140 L -28 28 L -140 0 L -28 -28 Z"
+          fill="url(#star)"/>
+    <path d="M 0 -140 L 28 -28 L 140 0 L 28 28 L 0 140 L -28 28 L -140 0 L -28 -28 Z"
+          fill="none" stroke="white" stroke-width="1.5" opacity="0.3"/>
+  </g>
+
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#ring)" stroke-width="1.5" stroke-dasharray="6 10" opacity="0.5"/>
+</svg>
