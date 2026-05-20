@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="logo" src="https://cdn.exmay.com/exmay/exmay-app/static/images/agido_logo.svg" width="150" height="150" style="border">
+  <img alt="logo" src="https://cdn.exmay.com/exmay/exmay-app/static/images/agido-logo.svg" width="150" height="150" style="border">
 </div>
 <div align="center">
   <br />
